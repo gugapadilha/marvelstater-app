@@ -5,9 +5,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import daniel.lop.io.marvelappstarter.databinding.FragmentListCharacterBinding
 import daniel.lop.io.marvelappstarter.ui.base.BaseFragment
 
+@AndroidEntryPoint
 class ListCharacterFragment: BaseFragment<FragmentListCharacterBinding, ListCharacterViewModel>() {
     override val viewModel: ListCharacterViewModel by viewModels()
 
