@@ -13,9 +13,9 @@ class FavoriteCharacterFragment:
 
     BaseFragment<FragmentSearchCharacterBinding, FavoriteCharacterViewModel>() {
 
-    override val viewModel: ListCharacterViewModel by viewModels()
+    override val viewModel: FavoriteCharacterViewModel by viewModels()
 
-    override fun getViewBlinding(
+    override fun getViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ): FragmentSearchCharacterBinding =

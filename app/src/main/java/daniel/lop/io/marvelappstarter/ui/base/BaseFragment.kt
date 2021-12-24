@@ -11,9 +11,9 @@ import androidx.viewbinding.ViewBinding
 abstract class BaseFragment<VB: ViewBinding, VM: ViewModel>: Fragment() {
     //quem extender de fragment, tem que passar qual seu viewBinding e qual seu viewModel
 
-    private var _binding: ViewBinding? = null
+    private var _binding: VB? = null
     protected val binding get() = _binding!! //garantindo que nao vai ser null
-    protected abstract  val viewModel: ViewModel //quem implementar vai herdar de base fragment
+    protected abstract  val viewModel: VM //quem implementar vai herdar de base fragment
 
 
     override fun onCreateView(
@@ -21,11 +21,11 @@ abstract class BaseFragment<VB: ViewBinding, VM: ViewModel>: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = getViewBlinding(inflater, container)
+        _binding = getViewBinding(inflater, container)
         return binding.root
     }
 
-    protected abstract fun getViewBlinding(inflater: LayoutInflater, container: ViewGroup?): VB
+    protected abstract fun getViewBinding(inflater: LayoutInflater, container: ViewGroup?): VB
 
     override fun onDestroyView() {
         super.onDestroyView()

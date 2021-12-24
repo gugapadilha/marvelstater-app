@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/gusta/Desktop/marvel-app-stater/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/gusta/Desktop/marvel-app-stater/app/src/main/res/menu/menu_nav.xml" value="0.128" />
+        <entry key="..\:/Users/gusta/Desktop/marvel-app-stater2/app/src/main/res/layout/fragment_details_character.xml" value="0.176" />
+        <entry key="..\:/Users/gusta/Desktop/marvel-app-stater2/app/src/main/res/layout/fragment_search_character.xml" value="0.176" />
+        <entry key="..\:/Users/gusta/Desktop/marvel-app-stater2/app/src/main/res/layout/item_comic.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

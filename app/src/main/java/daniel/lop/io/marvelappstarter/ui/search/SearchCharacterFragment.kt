@@ -13,7 +13,7 @@ class SearchCharacterFragment:
     BaseFragment<FragmentSearchCharacterBinding, SearchCharacterViewModel>() {
     override val viewModel: SearchCharacterViewModel by viewModels()
 
-    override fun getViewBlinding(
+    override fun getViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ): FragmentSearchCharacterBinding =
