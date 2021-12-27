@@ -19,7 +19,7 @@
   
    ### Imagens do projeto:
   
-  <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![tela1](https://user-images.githubusercontent.com/79876042/147498076-11ad7cbe-b315-45f6-8b03-2253ab101784.png)
   <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![tela2](https://user-images.githubusercontent.com/79876042/147498080-f976fd7f-53c6-4f30-8ac1-e89f6e784640.png)
