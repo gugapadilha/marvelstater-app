@@ -11,7 +11,8 @@
   + Listas;
   + Catálogos;
   + Validações;
-  + Implementações;
+  + Detalhes;
+  + Exibições.
   
   <strong>Tecnologias usadas: </strong>
    + Kotlin
