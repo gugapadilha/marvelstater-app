@@ -41,6 +41,10 @@ class DetailCharacterFragment :
         setupRecycleView()
         onLoadedCharacter(characterModel)
         collectObserver()
+        descriptionCharacter()
+    }
+
+    private fun descriptionCharacter(){
         binding.tvDescriptionCharacterDetails.setOnClickListener {
             onShowDialog(characterModel)
         }

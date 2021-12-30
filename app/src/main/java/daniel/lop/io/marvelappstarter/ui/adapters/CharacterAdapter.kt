@@ -10,6 +10,7 @@ import daniel.lop.io.marvelappstarter.R
 import daniel.lop.io.marvelappstarter.data.model.character.CharacterModel
 import daniel.lop.io.marvelappstarter.databinding.ItemCharacterBinding
 import daniel.lop.io.marvelappstarter.util.limitDescription
+import daniel.lop.io.marvelappstarter.util.loadImage
 
 class CharacterAdapter: RecyclerView.Adapter<CharacterAdapter.CharacterViewHolder>() {
 
@@ -57,10 +58,9 @@ class CharacterAdapter: RecyclerView.Adapter<CharacterAdapter.CharacterViewHolde
             }else{ //mostra a descrição de ate 100 letras dos personagens
                 tvDescriptionCharacter.text = character.description.limitDescription(100)
             }
-
-            Glide.with(holder.itemView.context)
-                .load(character.thumbnailModel.path + "." + character.thumbnailModel.extension)
-                .into(imgCharacter)
+            loadImage(imgCharacter,
+                character.thumbnailModel.path,
+                character.thumbnailModel.extension)
         }
 
         holder.itemView.setOnClickListener{
