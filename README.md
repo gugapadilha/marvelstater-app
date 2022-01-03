@@ -2,7 +2,7 @@
 
   > Status: Finalizado ✔️
   
-  ### Aplicativo feito referente ao curso da plataforma Udemy, com intuito de trazer listas, personagens e descrições diretamente da API disponível no site da Marvel, usando Kotlin, arquitetura MVVW, Dagger, Retrofit e muito mais!
+  ### Aplicativo feito referente ao curso da plataforma Udemy, com intuito de trazer listas, personagens e descrições diretamente da API disponível no site da Marvel, usando Kotlin, arquitetura MVVW, Dagger-Hilt, Retrofit, StateFlow e muito mais!
   
   <br>
   
