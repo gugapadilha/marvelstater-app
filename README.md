@@ -1,12 +1,12 @@
-<h1> Projeto: Aplicativo Marvel Comics <h1> 
+<h1> Project: Marvel Comics Application <h1> 
 
-  > Status: Finalizado ✔️
+  > Status: Finished ✔️
   
   ### Application made throught Udemy platform course, in order to bring lists, characters and descriptions directly from the API available on the Marvel website, using Kotlin, MVVW architecture, Dagger-Hilt, Retrofit, StateFlow and much more!
   
   <br>
   
-  <strong>Principais caracteristicas do projeto: </strong>
+  <strong> Main Project Feature: </strong>
   + Images;
   + Lists;
   + Catalog;
@@ -14,11 +14,11 @@
   + Details;
   + Displays.
   
-  <strong>Tecnologias usadas: </strong>
+  <strong>Technologies Used: </strong>
    + Kotlin
    + Android 
   
-   ### Imagens do projeto:
+   ### Images Mobile Project:
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![tela0](https://user-images.githubusercontent.com/79876042/147752809-4bbf31f0-2ba5-4a4a-bcab-7e0c8ce89bf6.png)
   <br>
